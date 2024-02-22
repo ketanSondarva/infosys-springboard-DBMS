@@ -1,0 +1,54 @@
+-- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
+
+-- INSERT DATA:
+
+INSERT INTO Salesman VALUES(1, 'Peter', 'London');
+INSERT INTO Salesman VALUES(2, 'Michael', 'Paris');
+INSERT INTO Salesman VALUES(3, 'John', 'Mumbai');
+INSERT INTO Salesman VALUES(4, 'Harry', 'Chicago');
+INSERT INTO Salesman VALUES(5, 'Kevin', 'London');
+INSERT INTO Salesman VALUES(6, 'Alex', 'Chicago');
+
+SELECT * FROM Salesman;
+
+
+INSERT INTO product VALUES(101, 'Basketball', 10, 'Sports', 5);
+INSERT INTO product VALUES(102, 'Shirt',20, 'Apparel', 10);
+INSERT INTO product VALUES(103, NULL, 30, 'Electronics', 15);
+INSERT INTO product VALUES(104, 'Cricket Bat', 20, 'Sports', 20);
+INSERT INTO product VALUES(105, 'Trouser', 10, 'Apparel', 5);
+INSERT INTO product VALUES(106, 'Television', 40, 'ELECTRONICS', 20);
+
+SELECT * FROM Product;
+
+INSERT INTO Sale VALUES(1001, 1, '2014-01-01', NULL);
+INSERT INTO Sale VALUES(1002, 5, '2014-01-02', NULL);
+INSERT INTO Sale VALUES(1003, 4, '2014-02-01', NULL);
+INSERT INTO Sale VALUES(1004, 1, '2014-03-01', NULL);
+INSERT INTO Sale VALUES(1005, 2, '2014-02-01', NULL);
+INSERT INTO Sale VALUES(1006, 1, '2015-06-01', NULL);
+
+SELECT * FROM Sale;
+
+INSERT INTO Saledetail VALUES(1001, 106, 2);
+INSERT INTO Saledetail VALUES(1001, 103, 1);
+INSERT INTO Saledetail VALUES(1002, 102, 5);
+INSERT INTO Saledetail VALUES(1002, 101, 1);
+INSERT INTO Saledetail VALUES(1003, 104, 1);
+INSERT INTO Saledetail VALUES(1003, 101, 1);
+INSERT INTO Saledetail VALUES(1004, 103, 1);
+INSERT INTO Saledetail VALUES(1004, 104, 2);
+INSERT INTO Saledetail VALUES(1004, 106, 1);
+INSERT INTO Saledetail VALUES(1005, 101, 3);
+INSERT INTO Saledetail VALUES(1005, 106, 1);
+INSERT INTO Saledetail VALUES(1006, 102, 6);
+INSERT INTO Saledetail VALUES(1006, 104, 1);
+
+
+SELECT * FROM Saledetail;
+
+
+
+
+
