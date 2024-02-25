@@ -1,5 +1,8 @@
 -- Active: 1708238809852@@127.0.0.1@3306@infosyssb
 
+-- NOTE: When using LEFT OUTER JOIN, do not apply filter on the right table
+--       When using RIGHT OUTER JOIN, do not apply filter on the left table
+
 --- 1.Left outer join:
 
 -- 1. Main table WHERE condition: This query fetches details of all employees from ETA. In addition it retrieves model information for employees from ETA department who have computer allocated to them.
