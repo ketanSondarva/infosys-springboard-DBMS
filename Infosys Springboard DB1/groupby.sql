@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 --- GROUP BY groups the data from the table into different groups based on the criteria provided and calculates the aggregate function for each group. 
 ---- Thus the result has 1 row for each group.

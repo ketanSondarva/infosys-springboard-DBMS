@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- this wont work for MySql:
 -- In MySQL, you don't need to specify CONSTRAINT stud_sid_pk for the primary key constraint as it can be included directly after the column definition.

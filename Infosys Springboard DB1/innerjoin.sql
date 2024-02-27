@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 
 -- INNER Join is the most frequently used JOIN. 

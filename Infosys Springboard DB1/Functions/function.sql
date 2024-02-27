@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- SQL functions are built in modules provided by a database. You can use them in data manipulation statements to perform calculations on data.
 

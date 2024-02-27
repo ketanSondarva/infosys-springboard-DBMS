@@ -1,3 +1,34 @@
+
+
+-- Single Row Aggregate Function: Display the details of all employees whose salary is greater than or equal to average salary of the employees in their own department:
+
+SELECT Id, EName, DEPT, Salary FROM Employee E1 
+WHERE Salary >= (SELECT AVG(Salary) FROM Employee E2 WHERE E1.DEPT = E2.DEPT);
+
+-- Single row: Display the details of all employees whose salary is greater than their manager’s salary:
+
+SELECT Id, EName, DEPT, Salary FROM Employee E WHERE Salary > (SELECT Salary FROM Employee M WHERE E.Manager = M.ID);
+
+
+-- Equivalent join solution: Display the details of all employees whose salary is greater than their manager's salary:
+
+SELECT E.Id, E.EName, E.DEPT, E.Salary FROM Employee E JOIN Employee M ON E.Manager = M.Id AND E.Salary > M.Salary;
+
+-- Exists:  EXISTS keyword is used to check presence of rows in the subquery. 
+---         The main query returns the row only if at least one row exists in the subquery. 
+---         EXISTS clause follows short circuit logic i.e. the query calculation is terminated as soon as criteria is met. 
+---         As a result it is generally faster than equivalent join statements.
+
+SELECT CompId, Make, Model FROM Computer C WHERE EXISTS (SELECT 1 FROM Employee E WHERE E.CompId = C.CompId);
+
+
+-- Not Exists:  NOT EXISTS is opposite of EXISTS i.e. it is used to check absence of rows in the subquery. 
+---             The main query returns the row only if at least no row exists in the subquery. 
+---             It also uses short circuit logic and is hence faster.
+
+SELECT CompId, Make, Model FROM Computer C WHERE NOT EXISTS (SELECT 1 FROM Employee E WHERE E.CompId = C.CompId);
+
+
 -- EXERCISE 63:
 
 SELECT

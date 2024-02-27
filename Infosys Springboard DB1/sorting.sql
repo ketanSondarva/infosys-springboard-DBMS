@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- single column default:
 Select ID, ENAME, DOJ, SALARY, DEPT, DESIGNATION FROM Employee ORDER BY SALARY

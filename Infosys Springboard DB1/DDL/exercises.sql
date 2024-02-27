@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 -- Exercise 1:
 
 CREATE TABLE IF NOT EXISTS Player (

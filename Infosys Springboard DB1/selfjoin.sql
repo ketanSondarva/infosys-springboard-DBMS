@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- SELF Join represents join of a table with itself. In this example we use inner self join to retrive employee's manager name. 
 -- The Cartesian product of Employee table with itself will contain 5 x 5 = 25 rows.

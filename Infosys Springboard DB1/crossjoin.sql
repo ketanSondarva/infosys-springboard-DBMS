@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- CROSS Join is also referred to as Cartesian Product. 
 -- A CROSS join with m rows in table A and n rows in table B will always produce m * n rows. 

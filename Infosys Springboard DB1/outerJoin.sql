@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- NOTE: When using LEFT OUTER JOIN, do not apply filter on the right table
 --       When using RIGHT OUTER JOIN, do not apply filter on the left table

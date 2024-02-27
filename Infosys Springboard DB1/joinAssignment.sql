@@ -1,4 +1,3 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
 
 
 -- Dept (Deptno, Dname, Loc)

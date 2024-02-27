@@ -1,4 +1,4 @@
--- Active: 1708238809852@@127.0.0.1@3306@infosyssb
+
 
 -- Write a query to display Product Id, Product Description and Category of those products whose category name is electronics. 
 --   Do case insensitive comparison.
